@@ -1,103 +1,117 @@
-<h1 align="center">Hello, I'm Antoine!</h1>
+<h1 align="center">Antoine Lucas</h1>
 
 <p align="center">
-  <strong>Biostatistician & Data Scientist | 5+ Years in Pharma, Cosmetics & Biotech R&D</strong>
+  <strong>AI / ML Engineer &amp; Data Scientist · LLM agents &amp; MCP, computer vision, biostatistics</strong><br/>
+  5+ years shipping production ML and scientific software in pharma, cosmetics and biotech R&amp;D
 </p>
 
 <p align="center">
-  <a href="https://antoinelucasfra.github.io/">Website</a> ·
-  <a href="https://www.linkedin.com/in/antoinelucasdata/">LinkedIn</a> ·
-  <a href="https://fosstodon.org/@antoineloucass">Mastodon</a> ·
-  <a href="mailto:antoine.lucas.fra@gmail.com">Email</a>
+  <a href="https://antoinelucasfra.github.io/"><img alt="Website" src="https://img.shields.io/badge/website-antoinelucasfra.github.io-10243E?style=flat-square&logo=googlechrome&logoColor=white"></a>
+  <a href="https://antoinelucasfra.github.io/cv/ai.html"><img alt="CV: AI and scientific software" src="https://img.shields.io/badge/CV-AI_%26_scientific_software-10243E?style=flat-square&logo=typst&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/antoinelucasdata/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-antoinelucasdata-10243E?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="https://fosstodon.org/@antoineloucass"><img alt="Mastodon" src="https://img.shields.io/badge/Mastodon-@antoineloucass-10243E?style=flat-square&logo=mastodon&logoColor=white"></a>
+  <a href="mailto:antoine.lucas.fra@gmail.com"><img alt="Email antoine.lucas.fra@gmail.com" src="https://img.shields.io/badge/Email-antoine.lucas.fra%40gmail.com-10243E?style=flat-square&logo=gmail&logoColor=white"></a>
 </p>
 
----
-
-## About Me
-
-I'm a **Biostatistics Consultant** and **Data Scientist** with 5+ years embedded in R&D teams at **L'Oréal**, **Sanofi**, **Abolis** (microbiome biotech), and **Chanel Parfums Beauté**. I work at the intersection of experimental science and data — from clinical trial design and biostatistics to machine learning and computer vision in production.
-
-Currently building ML and computer vision tools for fragrance R&D at Chanel, on mission via Astek / IT&M Stats.
-
-**What drives my work:**
-- Reproducible, documented science that can be trusted and replicated
-- Tools that become invisible — scientists just use them
-- Rigour first: working in GxP environments teaches you that claims must match data
-- Open source: R, Python, Quarto, Git
+<p align="center"><em>Open to AI Engineer, ML Engineer and Data Scientist roles in Île-de-France. Hybrid, remote or on-site.</em></p>
 
 ---
 
-## Tech Stack
+## What I do
+
+I build production AI and data tools that scientists use every day. Currently **Data Scientist &amp; ML Engineer at Chanel Parfums Beauté R&D**, on mission via Astek / IT&amp;M Stats: computer-vision applications used by dozens of researchers, an agentic toolchain that hands LLM agents typed statistical tools instead of a code sandbox, and the R Shiny catalog the research teams open every morning.
+
+**LLM agents &amp; MCP.** MCP servers and tool-calling agents that run statistical analysis on demand. Tools are typed, JSON Schema is derived from the function signature, and the agent never gets a shell. Day to day I drive coding agents in parallel git worktrees through Orca, mostly pi and OpenCode, and I write the skills, MCP servers and harness configuration those agents run on.
+
+**Computer vision.** Detection and segmentation applications for microscopy, deployed in production for cosmetics and regulatory R&amp;D and used by researchers and technicians. OpenCV and PyTorch, with human review before results are saved.
+
+**Machine learning.** LoRA fine-tuning of Phi-3-mini (3.8B) for claim classification, from data preparation to evaluation, with a +19.5pp accuracy gain over the zero-shot baseline. NLP pipelines, Bayesian optimisation, multi-omics integration.
+
+**Applied statistics.** Design of experiments, mixed models, survival analysis and clinical analysis plans across 100+ studies, in GxP environments where claims have to match the data.
+
+**Engineering.** Tests, CI/CD, Docker, pinned environments (uv, renv, rv), Azure ML, Databricks, Posit Connect, documented handover. Software that still runs after its author moved on.
+
+## Selected work
+
+Almost everything I build is private. The computer-vision applications, the agentic toolchain and the R Shiny platforms run inside Chanel, Sanofi, L'Oréal and Abolis R&D under NDA, so there is no public repository, demo or screenshot to point at. The two works below are the ones I can show, and I am glad to talk through the private ones in as much detail as confidentiality allows.
+
+| Work | What it shows | Stack |
+|---|---|---|
+| [Sovereign Local AI](https://antoinelucasfra.github.io/localai-review/) | Bilingual FR/EN book on running AI on your own hardware. Runnable recipes, sourced claims. | Quarto · local model runtimes |
+| [Resources catalog](https://antoinelucasfra.github.io/catalog/) | 1200 tagged data-science resources, with the workflow that keeps them current. | Quarto · R · GitHub Actions |
+
+## Experience
+
+- **Data Scientist &amp; ML Engineer** · Chanel Parfums Beauté R&amp;D via Astek / IT&amp;M Stats · 2025 to present. Production computer vision, MCP servers and tool-calling agents, and the R Shiny application catalog.
+- **Data Scientist** · Astek / IT&amp;M Stats · 2025. Internal R packages, Quarto templates, and the Phi-3 LoRA fine-tune taken from data preparation to evaluation.
+- **Data Scientist, multi-omics** · Abolis Microbiome Studio · 2024 to 2025. Genomics, transcriptomics and metabolomics pipelines; SaaS co-built with two industrial partners.
+- **Data Scientist** · Sanofi R&amp;D, manufacturing chain · 2023 to 2024. End-to-end delivery ownership across requirements, validation, workshops, UAT and handover for multi-site R/Python applications.
+- **Biostatistician** · L'Oréal R&amp;I, scientific computing · 2021 to 2023. Clinical analysis plans, 100+ study reports, multi-block phenotyping across exposome, omics and microbiome data.
+
+Engineering degree in applied statistics and a master's in applied mathematics, both 2021. French native, English daily.
+
+## Stack
 
 **Languages**
 
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-**R Ecosystem**
+**LLM &amp; agent engineering**
 
-![Shiny](https://img.shields.io/badge/Shiny-276DC3?style=flat-square&logo=r&logoColor=white)
-![Tidyverse](https://img.shields.io/badge/Tidyverse-1A162D?style=flat-square&logo=r&logoColor=white)
-![Quarto](https://img.shields.io/badge/Quarto-75AADB?style=flat-square&logo=quarto&logoColor=white)
-![renv](https://img.shields.io/badge/renv-276DC3?style=flat-square&logo=r&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP_servers-10243E?style=flat-square)
+![Tool calling](https://img.shields.io/badge/tool--calling_agents-10243E?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![LiteLLM](https://img.shields.io/badge/LiteLLM-10243E?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-10243E?style=flat-square)
 
-**Python Ecosystem**
+**Machine learning &amp; AI**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![LoRA / PEFT](https://img.shields.io/badge/LoRA_%2F_PEFT-10243E?style=flat-square)
 
-**Infrastructure**
+**Scientific apps &amp; delivery**
 
+![Shiny](https://img.shields.io/badge/Shiny-276DC3?style=flat-square&logo=r&logoColor=white)
+![Quarto](https://img.shields.io/badge/Quarto-75AADB?style=flat-square&logo=quarto&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
 
----
+**Agentic dev tooling**
 
-## What I Do
+![pi](https://img.shields.io/badge/pi-agent_harness-10243E?style=flat-square)
+![Orca](https://img.shields.io/badge/Orca-parallel_agent_worktrees-10243E?style=flat-square)
+![OpenCode](https://img.shields.io/badge/OpenCode-10243E?style=flat-square)
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-10243E?style=flat-square&logo=githubcopilot&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-10243E?style=flat-square&logo=anthropic&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-10243E?style=flat-square&logo=openai&logoColor=white)
 
-| Area | Expertise |
-|------|-----------|
-| **Statistical Analysis** | Longitudinal & Mixed Models · Clinical Trials · Survival Analysis · DoE |
-| **Machine Learning** | Computer Vision · NLP · Bayesian Optimisation · Multi-omics |
-| **Data Products** | R Shiny Platforms · Interactive Dashboards · Automated Reports |
-| **Development** | R & Python Packages · Reproducible Pipelines · REST APIs |
-| **Publishing** | Quarto · Technical Documentation · Websites & Books |
-| **Infrastructure** | Docker · Dev Containers · CI/CD · GxP / Regulated Environments |
+**Local model runtimes**
 
----
+![Ollama](https://img.shields.io/badge/Ollama-10243E?style=flat-square&logo=ollama&logoColor=white)
+![llama.cpp](https://img.shields.io/badge/llama.cpp-10243E?style=flat-square)
+![vLLM](https://img.shields.io/badge/vLLM-10243E?style=flat-square)
+![Open WebUI](https://img.shields.io/badge/Open_WebUI-10243E?style=flat-square)
+![Unsloth](https://img.shields.io/badge/Unsloth-10243E?style=flat-square)
+![WebLLM](https://img.shields.io/badge/WebLLM-10243E?style=flat-square)
 
-## Selected Projects
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [antoinelucasfra.github.io](https://github.com/antoinelucasfra/antoinelucasfra.github.io) | Personal portfolio website with blog, projects & resources catalog | Quarto · R · GitHub Actions |
-| [SkateJudge](https://github.com/antoinelucasfra/SkateJudge) | Skateboard trick identifier app using LLM-based evaluation | TypeScript |
-| [eye-tracking_M2](https://github.com/antoinelucasfra/eye-tracking_M2) | Eye-tracking data analysis — gaze processing & statistical inference | R |
+## Writing
 
----
+- [Engineering standards for scientific software](https://antoinelucasfra.github.io/posts/engineering-standards-scientific-software/)
+- [Reproducible environments for everyone](https://antoinelucasfra.github.io/posts/devcontainers-reproducible-environments/)
+- [An LLM coding assistant workflow](https://antoinelucasfra.github.io/posts/llm-coding-assistant/)
 
-## Who I Work With
+The rest lands on the [blog](https://antoinelucasfra.github.io/blog.html) when I have something worth writing down.
 
-- **Pharmaceutical companies** — clinical development and regulatory submissions
-- **Cosmetics industry** — efficacy and safety analyses, sensory science
-- **Biotech startups** — data infrastructure from scratch
-- **Research institutions** — applied methodology
+## Beyond the code
 
----
-
-## Beyond the Code
-
-- **Climbing** — indoor training and outdoor routes
-- **Reading manga** — One Piece enthusiast (still waiting for the ending)
-- **Gaming** — auto-chess, RPGs, strategy games
-
----
-
-<p align="center">
-  <em>Interested in working together? <a href="mailto:antoine.lucas.fra@gmail.com">Let's connect.</a></em>
-</p>
+Climbing, One Piece, and a lot of time for people who can say "I was wrong about that".
